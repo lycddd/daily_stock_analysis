@@ -36,6 +36,8 @@ from .realtime_types import UnifiedRealtimeQuote, ChipDistribution
 from src.config import get_config
 import os
 from zoneinfo import ZoneInfo
+import tushare as ts
+pro = ts.pro_api('1')
 
 logger = logging.getLogger(__name__)
 
