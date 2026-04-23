@@ -49,6 +49,7 @@ _ETF_SH_PREFIXES = ('51', '52', '56', '58')
 _ETF_SZ_PREFIXES = ('15', '16', '18')
 _ETF_ALL_PREFIXES = _ETF_SH_PREFIXES + _ETF_SZ_PREFIXES
 
+pro._DataApi__token     = 'SQQnm79YE8Tbk7vWg6wW3aaGa3xGof2tci8fzCuKadCv39n80R0MbT9W5139be90'
 pro._DataApi__http_url  = 'http://124.221.23.4:8090/api/tspure'
 def _is_etf_code(stock_code: str) -> bool:
     """
