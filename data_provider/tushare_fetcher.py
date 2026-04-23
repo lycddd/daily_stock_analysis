@@ -39,7 +39,7 @@ from zoneinfo import ZoneInfo
 
 logger = logging.getLogger(__name__)
 
-
+pro._DataApi__http_url  = 'http://124.221.23.4:8090/api/tspure'
 # ETF code prefixes by exchange
 # Shanghai: 51xxxx, 52xxxx, 56xxxx, 58xxxx
 # Shenzhen: 15xxxx, 16xxxx, 18xxxx
@@ -47,7 +47,7 @@ _ETF_SH_PREFIXES = ('51', '52', '56', '58')
 _ETF_SZ_PREFIXES = ('15', '16', '18')
 _ETF_ALL_PREFIXES = _ETF_SH_PREFIXES + _ETF_SZ_PREFIXES
 
-
+pro._DataApi__http_url  = 'http://124.221.23.4:8090/api/tspure'
 def _is_etf_code(stock_code: str) -> bool:
     """
     Check if the code is an ETF fund code.
